@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(211, 211, 211, 0.753);
+}
+
+#area-cabecalho{
+    background-color: #24021a;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+#area-logo, #area-menu{
+    padding: 10px 50px;
+}
+
+#area-pricipal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    padding-top: 115px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    background: #ccc;
+    width: 100%;
+    display:flex;
+    padding:20px 0;
+    align-items: center;
+    flex-direction: column;
+    color: #24021a;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #c0251d;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+    color:#68104d;
+    background: #fff;
+    text-decoration: none; 
+    border-radius: 10px;  
+}
+
+h1{
+    color: #9b5486;
+    font-size: 2.5em;
+}
+
+h2{
+    color:#68104d;
+    font-size: 25px;
+}
+
+h3{
+    color:#565656;
+    font-size: 18px;
+    border-top: 1px solid #f8c1e7;
+    padding-top: 5px;
+    border-bottom: 1px solid #f8c1e7;
+    padding-bottom: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+.subtitulo{
+    color: #9b5486;
+    font-size: 18px;
+    border-top: 1px solid #f8c1e7;
+    padding-top: 5px;
+    border-bottom: 1px solid #f8c1e7;
+    padding-bottom: 5px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.materia{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.branco{
+    color: white;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 15px 0px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.link-lateral{
+    margin-top: 8px;
+}
